@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(green,lightgreen);
+    min-height: 120vh;
+
+}
+.Main{
+  
+  
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 5rem;
+   
+   
+
+}
+.search{
+    background-color: white;
+    height: 1.6rem;
+    border-radius: 1.5rem;
+    width: 2rem;
+    
+}
+.img{
+    display:flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.city{
+    display:flex;
+    align-items: center;
+    margin-top: 3rem;
+    flex-direction: column;
+    color: white;
+
+}
+.Footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 2rem;
+    color: white;
+}
+.box{
+    margin-top: -0.3rem;
+}
